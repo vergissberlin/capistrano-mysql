@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency							"capistrano", ">= 2.13.5","<= 2.15.4"
+  spec.add_dependency							"capistrano", ">= 2.13.5", "<= 3.20.1"
   spec.add_dependency							"capistrano_colors", ">= 0.5.5"
   spec.add_dependency							"capistrano-ext", ">= 1.2.1"
   spec.add_dependency							"railsless-deploy", "~> 1.1.2"
